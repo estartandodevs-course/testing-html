@@ -1,4 +1,6 @@
-on: [master, workflow_dispatch]
+on:
+  workflow_dispatch:
+    branches: master
 
 jobs:
   evaluator:
