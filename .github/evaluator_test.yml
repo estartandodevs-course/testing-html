@@ -1,6 +1,4 @@
-on:
-  pull_request_target:
-    branches: [main]
+on: [master, workflow_dispatch]
 
 jobs:
   evaluator:
