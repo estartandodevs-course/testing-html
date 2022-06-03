@@ -1,0 +1,22 @@
+{
+  "name": "testing-html",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ramon <ramon1234rxm@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "babel-jest": "^28.1.0",
+    "jest": "^28.1.0",
+    "serve": "^13.0.2"
+  },
+  "dependencies": {
+    "jsdom": "^19.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
