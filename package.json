@@ -17,6 +17,7 @@
     "jsdom": "^19.0.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "test:evaluation": "jest --json --outputFile=/tmp/result.json"
   }
 }
